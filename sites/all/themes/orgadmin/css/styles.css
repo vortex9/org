@@ -20,3 +20,10 @@
 /* SMACSS theme rules */
 /* @import "theme-A.css"; */
 /* @import "theme-B.css"; */
+
+input.form-submit {
+background: linear-gradient(to top, #E9E9E9, #B1B2FE);
+box-shadow: none;
+border: 1px solid rgba(116, 116, 116, 1);
+margin-right: 10px;
+}
