@@ -20,3 +20,11 @@
 /* SMACSS theme rules */
 /* @import "theme-A.css"; */
 /* @import "theme-B.css"; */
+#block-locale-language ul{
+list-style-type: none;
+}
+
+#block-locale-language  ul li{
+float: left;
+padding: 5px;
+}
