@@ -122,13 +122,15 @@
 
 /* The secondary menu (login, etc.) */
 .header__secondary-menu {
-  float: right; /* LTR */
+width: 100%;
+font-size: 1.5em;
+ /* float: right; *//* LTR */
 }
 
 /* Wrapper for any blocks placed in the header region. */
 .header__region {
   /* Clear the logo. */
-  clear: both;
+  /*clear: both;*/
 }
 
 /**
