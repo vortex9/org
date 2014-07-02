@@ -44,16 +44,6 @@
         <?php endif; ?>
       </div>
     <?php endif; ?>
-	</div>
-    
-
-    <?php print render($page['header']); ?>
-
-  </header>
-
-  <div id="main">
-
-    <div id="content" class="column" role="main">
 	<div id="navigation">
 
       <?php if ($main_menu): ?>
@@ -80,6 +70,17 @@
       <?php print render($page['navigation']); ?>
 
     </div>
+	</div>
+    
+
+    <?php print render($page['header']); ?>
+
+  </header>
+
+  <div id="main">
+
+    <div id="content" class="column" role="main">
+	
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
       <a id="main-content"></a>
