@@ -94,7 +94,7 @@
 
 /* Wrapper for website name and slogan. */
 .header__name-and-slogan {
-  float: left;
+  
 }
 
 /* The name of the website. */
@@ -156,9 +156,12 @@ padding-left: 25px;
 #navigation .menu li {
   /* A simple method to get navigation links to appear in one line. */
   float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  padding: 5px 10px 5px 10px; /* LTR */
   list-style-type: none;
   list-style-image: none;
+  background: #D3F2F6;
+border:1px solid #ccc;
+margin-right: 10px;
 }
 
 /**
