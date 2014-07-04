@@ -26,7 +26,16 @@
         )); ?>
       </nav>
     <?php endif; ?>
-	<div id="main-header">
+	<div id="sub-header">
+	<?php 
+			$block = module_invoke('locale', 'block_view', 'language');
+			print render($block['content']);
+		?> 
+    <?php
+			$block = module_invoke('search', 'block_view');
+			print render($block['content']);
+		?>
+	</div>
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
     <?php endif; ?>
@@ -40,6 +49,7 @@
         <?php endif; ?>
 
         <?php if ($site_slogan): ?>
+		
           <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
         <?php endif; ?>
       </div>
@@ -70,9 +80,7 @@
       <?php print render($page['navigation']); ?>
 
     </div>
-	</div>
-    
-
+	
     <?php print render($page['header']); ?>
 
   </header>
