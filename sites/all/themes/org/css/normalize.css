@@ -150,6 +150,9 @@ textarea {
 body {
   margin: 0;
   padding: 0;
+  background: url('/sites/all/themes/org/images/background.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
 /**
@@ -188,6 +191,7 @@ a:hover {
 p,
 pre {
   margin: 0;
+  padding: 0px 10px;
 }
 blockquote {
   /* Also indent the quote on both sides. */
@@ -323,7 +327,7 @@ menu,
 ol,
 ul {
   /* Address margins set differently in IE 6/7. */
-  margin: 1.5em 0;
+  
 }
 ol ol,
 ol ul,
@@ -340,7 +344,7 @@ dd {
 menu,
 ol,
 ul {
-  padding: 0 0 0 30px; /* LTR */
+  margin:0;
 }
 
 /* Correct list images handled incorrectly in IE 7. */
