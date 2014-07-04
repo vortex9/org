@@ -187,7 +187,7 @@ a:hover {
 /* Set 1 unit of vertical rhythm on the top and bottom margin. */
 p,
 pre {
-  margin: 1.5em 0;
+  margin: 0;
 }
 blockquote {
   /* Also indent the quote on both sides. */
@@ -370,6 +370,7 @@ img {
   /* Correct IE 8 not scaling image height when resized. */
   width: auto;
 }
+
 
 /* Correct overflow displayed oddly in IE 9. */
 svg:not(:root) {
