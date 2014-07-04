@@ -20,20 +20,23 @@
 /* SMACSS theme rules */
 /* @import "theme-A.css"; */
 /* @import "theme-B.css"; */
-#block-locale-language ul{
+ul.language-switcher-locale-url{
 list-style-type: none;
+float: left;
+margin: 0;
+padding: 0;
 }
 
-#block-locale-language  ul li{
+ul.language-switcher-locale-url li{
 float: left;
 padding: 5px;
 }
-#block-locale-language  ul li:hover, #block-locale-language  ul li.active:hover{
+ul.language-switcher-locale-url li:hover, ul.language-switcher-locale-url li.active:hover{
 background: rgba(255, 238, 108, 1);
 }
-#block-locale-language  ul li.active{background: rgba(195, 254, 184, 1);}
+ul.language-switcher-locale-url li.active{background: rgba(195, 254, 184, 1);}
 
-#block-locale-language .en img {width: 18px;}
+.language-switcher-locale-url .en img {width: 18px;}
 
 #block-search-form {float: right;}
 
@@ -82,7 +85,21 @@ color: #fff;
 padding: 0 20px;
 }
 
-.view-display-id-front_page .views-row-odd {background:#ccc}
-.view-display-id-front_page .views-row-even {background:#eee}
+.view-display-id-front_page .views-row-odd {background:#EBFEC8}
+.view-display-id-front_page .views-row-even {background:#CDFCD9}
+.view-display-id-front_page .views-row {}
 
-.block-webform-client-block-15 {background:#FFFF86;}
+/* feedback form */
+#block-webform-client-block-15 {background:#FFFF86;}
+
+#sub-header {
+float:right;
+}
+#search-block-form {
+float:left;
+}
+.front-title, #block-webform-client-block-15 .block-title {text-align:center;}
+.front-title, .front-body, #block-webform-client-block-15 .block-title, .webform-client-form-15 {
+max-width:1200px;
+margin: 0 auto;
+}
