@@ -6,3 +6,4 @@ sites/*/settings*.php
 sites/default/files/private/*
 sites/*/*/languages/*
 sites/*/*/styles/*
+tmp/*
