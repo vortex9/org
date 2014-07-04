@@ -100,14 +100,13 @@
 /* The name of the website. */
 .header__site-name {
   margin: 0;
-  font-size: 2em;
-  line-height: 1.5em;
-}
+  font-size: 1.5em;
+  }
 
 /* The link around the name of the website. */
 .header__site-link:link,
 .header__site-link:visited {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 .header__site-link:hover,
@@ -118,6 +117,7 @@
 /* The slogan (or tagline) of a website. */
 .header__site-slogan {
   margin: 0;
+  color:#fff;
 }
 
 /* The secondary menu (login, etc.) */
@@ -155,15 +155,36 @@ padding-left: 25px;
 #navigation .links li,
 #navigation .menu li {
   /* A simple method to get navigation links to appear in one line. */
-  float: left; /* LTR */
-  padding: 5px 10px 5px 10px; /* LTR */
+ /* float: left; 
+  padding: 5px 10px 5px 10px; 
   list-style-type: none;
   list-style-image: none;
   background: #D3F2F6;
 border:1px solid #ccc;
-margin-right: 10px;
+margin-right: 10px;*/
 }
 
+#block-block-1 {
+margin: 0;
+padding: 0;
+text-align: left;
+}
+#block-block-1 ul {
+max-width: 1200px;
+margin: 0px auto;
+}
+#block-block-1 li {
+list-style-type: none;
+list-style-image: none;
+}
+
+#block-block-1 li a{
+float: left;
+padding: 0px 8%;
+background: #D3F2F6;
+border:1px solid #ccc;
+margin-right: 10px;
+}
 /**
  * Breadcrumb navigation.
  */
@@ -546,7 +567,8 @@ span.field-label {
 
 /* Wrapper for a form element (or group of form elements) and its label. */
 .form-item {
-  margin: 1.5em 0;
+  /*margin: 1.5em 0;*/
+  padding: 0 10px;
 }
 
 /* Pack groups of checkboxes and radio buttons closer together. */
