@@ -47,6 +47,7 @@ position:fixed;
 background:#fff;
 width: 100%;
 z-index: 300;
+border-bottom: 1px solid #474747;
 }
 
 #header,
@@ -74,7 +75,7 @@ z-index: 300;
 @media all and (min-width: 480px) {
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 12em;
+    padding-top: 9em;
     position: relative;
   }
   #navigation {
