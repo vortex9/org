@@ -33,7 +33,7 @@ float: left;
 padding: 5px;
 }
 ul.language-switcher-locale-url li:hover, ul.language-switcher-locale-url li.active:hover{
-background: rgba(255, 238, 108, 1);
+background: #00B5EE;
 }
 ul.language-switcher-locale-url li.active{background: rgba(195, 254, 184, 1);}
 
@@ -98,6 +98,7 @@ float:right;
 #search-block-form {
 float:left;
 line-height: 2em;
+padding-left: 10px;
 }
 #block-webform-client-block-15  input{
 width:100%;
