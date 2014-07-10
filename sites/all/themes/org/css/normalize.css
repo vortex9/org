@@ -100,8 +100,8 @@ audio:not([controls]) {
  *    `em` units.
  */
 html {
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif; /* 1 */
-
+  /*font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif; *//* 1 */
+	font-family: 'Roboto', sans-serif;
   /* Delete all but one of the following font-size declarations: */
 
   /* Use a 12px base font size. 16px x 75% = 12px */
@@ -161,9 +161,24 @@ body {
  * The order of link states are based on Eric Meyer's article:
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
-a:link {text-decoration: none;}
-a:visited {color:#00E;}
-a:hover,a:focus {color:#00B5EE;}
+ 
+ 
+a:link, a:visited  {
+text-decoration: none;
+color:#3B41B3;
+}
+#header a:link ,#header a:visited {color:#fff;}
+#header a:hover,#header a:focus {
+color:#00B5EE;
+text-decoration: none;
+}
+#block-block-1 a:hover,#block-block-1a:focus {
+color:#fff;
+}
+a:hover,a:focus {
+color:#00B5EE;
+text-decoration: underline;
+}
 a:active {color:#00B5EE;}
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
@@ -471,6 +486,10 @@ input[type="submit"] {
   -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
   *overflow: visible; /* 4 */
+  background: #44EBB5;
+border: none;
+color: #FFF;
+text-shadow: 1px 1px #228B69;
 }
 
 /**
