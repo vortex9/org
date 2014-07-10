@@ -94,7 +94,7 @@
 
 /* Wrapper for website name and slogan. */
 .header__name-and-slogan {
-  text-shadow: 1px 1px;
+  text-shadow: 1px 1px #014AA7;
 }
 
 /* The name of the website. */
@@ -125,6 +125,7 @@
 width: 100%;
 font-size: 1.5em;
 padding-left: 25px;
+text-shadow: 0px 0px 1px #000;
  /* float: right; *//* LTR */
 }
 
@@ -564,7 +565,6 @@ span.field-label {
 /* Wrapper for a form element (or group of form elements) and its label. */
 .form-item {
   /*margin: 1.5em 0;*/
-  padding: 0 10px;
 }
 
 /* Pack groups of checkboxes and radio buttons closer together. */
