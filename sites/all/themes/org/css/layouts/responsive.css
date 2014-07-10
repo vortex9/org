@@ -44,10 +44,10 @@
 /* Containers for grid items and flow items. */
 #header {
 position:fixed;
-background:#2F496C;
+background:#D5E7FF;
 width: 100%;
 z-index: 300;
-border-bottom: 1px solid #474747;
+border-bottom: 1px solid #fff;
 }
 
 #header,
@@ -75,7 +75,7 @@ border-bottom: 1px solid #474747;
 @media all and (min-width: 480px) {
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 8em;
+    padding-top: 5em;
     position: relative;
 	 }
   #navigation {
