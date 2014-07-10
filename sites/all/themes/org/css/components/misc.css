@@ -94,7 +94,7 @@
 
 /* Wrapper for website name and slogan. */
 .header__name-and-slogan {
-  
+  text-shadow: 1px 1px;
 }
 
 /* The name of the website. */
@@ -180,10 +180,6 @@ list-style-image: none;
 
 #block-block-1 li a{
 float: left;
-padding: 0px 8%;
-background: #D3F2F6;
-border:1px solid #ccc;
-margin-right: 10px;
 }
 /**
  * Breadcrumb navigation.
