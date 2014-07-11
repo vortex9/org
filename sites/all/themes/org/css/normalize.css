@@ -488,10 +488,14 @@ input[type="submit"] {
   *overflow: visible; /* 4 */
   background: #44EBB5;
 border: none;
-color: #FFF;
-text-shadow: 1px 1px #228B69;
+color: #000;
+text-shadow: 1px 1px #fff;
 }
-
+input[type="submit"]:hover {
+color: #fff;
+background: #28A2EE!important;
+text-shadow: none;
+}
 /**
  * Re-set default cursor for disabled elements.
  */
