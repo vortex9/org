@@ -100,6 +100,14 @@ float:left;
 line-height: 2em;
 padding-left: 10px;
 }
+#search-block-form input[type="submit"] {
+height: 28px;
+width: 30px;
+}
+.form-item-search-block-form {
+display: block;
+float: left;
+}
 #block-webform-client-block-15  input{
 width:100%;
 }
