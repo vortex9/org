@@ -68,6 +68,7 @@ stylesheets[all][] = css/font-awesome.css
 ; Optionally add some JavaScripts to your theme.
 
 ;scripts[] = js/script.js
+scripts[] = js/clear_search.js
 
 
 
