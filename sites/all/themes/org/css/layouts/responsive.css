@@ -18,27 +18,33 @@
 .region-bottom {
   margin-left: auto;
   margin-right: auto;
-  /*max-width: 1200px;*/
-}
+ }
 #content, #footer {
 max-width: 1200px;
-margin: 0 auto;
+margin: auto;
 }
 #footer {
-background: rgba(10, 108, 255, 0.3);
-color:#fff;
+background: #87C0FF;
+overflow:hidden;
 }
-#footer a {
+#footer, #footer a {
 color:#fff;
+text-shadow: 0 0 1px #b1b1b1;
 }
 #block-block-2 {
 float: right!important;
 }
+
 #footer .block {
 float:left;
-line-height: 50px;
-}
+padding:30px 0;
+line-height:1em;
 
+}
+#header .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
 #header,
@@ -81,8 +87,8 @@ border-bottom: 1px solid #fff;
 #main:after,
 #footer:before,
 #footer:after {
-  content: "";
-  display: table;
+ /* content: "";
+  display: table;*/
 }
 #header:after,
 #main:after,

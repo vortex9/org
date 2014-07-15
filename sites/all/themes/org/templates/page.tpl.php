@@ -11,6 +11,7 @@
 <div id="page">
 
   <header class="header" id="header" role="banner">
+  <div class="wrapper">
 	<?php if ($secondary_menu): ?>
       <nav class="fa header__secondary-menu" id="secondary-menu" role="navigation">
         <?php print theme('links__system_secondary_menu', array(
@@ -82,7 +83,7 @@
     </div>
 	
     <?php print render($page['header']); ?>
-
+</div>
   </header>
 
   <div id="main">

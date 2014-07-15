@@ -84,7 +84,7 @@
 .header__logo {
   float: left; /* LTR */
   margin: 0;
-  padding: 0 10px 0 25px;
+  padding: 0 10px 0 0px;
 }
 
 /* Logo image. */
@@ -124,9 +124,7 @@
 .header__secondary-menu {
 width: 100%;
 font-size: 1.5em;
-padding-left: 25px;
 text-shadow: 0px 0px 1px #000;
- /* float: right; *//* LTR */
 }
 
 /* Wrapper for any blocks placed in the header region. */
@@ -156,24 +154,19 @@ text-shadow: 0px 0px 1px #000;
 #navigation .links li,
 #navigation .menu li {
   /* A simple method to get navigation links to appear in one line. */
- /* float: left; 
-  padding: 5px 10px 5px 10px; 
-  list-style-type: none;
-  list-style-image: none;
-  background: #D3F2F6;
-border:1px solid #ccc;
-margin-right: 10px;*/
+ 
 }
 
 #block-block-1 {
-margin: 0;
+/*margin: 0;
 padding: 0;
-text-align: left;
+text-align: left;*/
 }
 #block-block-1 ul {
-max-width: 1200px;
-margin: 0px auto;
+height:30px;
+padding-left: 0;
 }
+
 #block-block-1 li {
 list-style-type: none;
 list-style-image: none;
