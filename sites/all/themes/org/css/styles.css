@@ -57,7 +57,18 @@ background:#00B5EE;
 #block-views-news-slider-block-1 {
 /*background: #6E93CB;*/
 }
+.views-field-field-news-image {
+ display: inline-block;
+width:auto;
+height:300px;
+/*overflow-x:hidden;*/
+position:relative;
+}
 
+#block-views-news-slider-block-1 img {
+height:300px;
+width:100%;
+}
 #block-views-news-slider-block-1 .view-id-news_slider {
 margin: 0px auto;
 max-width: 1200px;
