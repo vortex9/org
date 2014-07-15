@@ -20,6 +20,25 @@
   margin-right: auto;
   /*max-width: 1200px;*/
 }
+#content, #footer {
+max-width: 1200px;
+margin: 0 auto;
+}
+#footer {
+background: rgba(10, 108, 255, 0.3);
+color:#fff;
+}
+#footer a {
+color:#fff;
+}
+#block-block-2 {
+float: right!important;
+}
+#footer .block {
+float:left;
+line-height: 50px;
+}
+
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
 #header,
@@ -68,14 +87,17 @@ border-bottom: 1px solid #fff;
 #header:after,
 #main:after,
 #footer:after {
-  clear: both;
+ /* clear: both;*/
 }
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
+  body.logged-in #main {
+  padding-top:114px;
+  }
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 5em;
+    padding-top: 90px;
     position: relative;
 	 }
   #navigation {
