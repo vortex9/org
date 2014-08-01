@@ -150,7 +150,7 @@ textarea {
 body {
   margin: 0;
   padding: 0;
-  background: url('/sites/all/themes/org/images/background.jpg');
+  background: #fff;
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -164,8 +164,7 @@ body {
  
  
 a:link, a:visited  {
-text-decoration: none;
-color:#3B41B3;
+color:#000;
 }
 #header a:link ,#header a:visited {color:#fff;}
 #header a:hover,#header a:focus {
@@ -486,10 +485,9 @@ input[type="submit"] {
   -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
   *overflow: visible; /* 4 */
-  background: #44EBB5;
-border: none;
+  background: #fff;
+border: 1px solid #5F5F5F;
 color: #000;
-text-shadow: 1px 1px #fff;
 }
 input[type="submit"]:hover {
 color: #fff;

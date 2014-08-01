@@ -34,8 +34,12 @@ padding: 5px;
 }
 ul.language-switcher-locale-url li:hover, ul.language-switcher-locale-url li.active:hover{
 background: #00B5EE;
+border-radius:5px;
 }
-ul.language-switcher-locale-url li.active{background: rgba(195, 254, 184, 1);}
+ul.language-switcher-locale-url li.active{
+border: 1px solid #5F5F5F;
+border-radius:5px;
+}
 
 .language-switcher-locale-url .en img {width: 18px;}
 
@@ -124,12 +128,11 @@ width:100%;
 }
 #block-webform-client-block-15  input[type="submit"]{
 width:100%;
-background: #44EBB5;
-border: none;
+background: #fff;
 height: 2em;
 }
 #block-webform-client-block-15 fieldset {
-border-color:#44EBB5;
+border-color:#5F5F5F;
 }
 #block-webform-client-block-15 input[type="checkbox"] {
 width: initial;
