@@ -150,7 +150,7 @@ textarea {
 body {
   margin: 0;
   padding: 0;
-  background: url('/sites/all/themes/org/images/background.jpg');
+  background: #2D3E50;
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -486,10 +486,10 @@ input[type="submit"] {
   -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
   *overflow: visible; /* 4 */
-  background: #44EBB5;
+  background: #F39A26;
 border: none;
-color: #000;
-text-shadow: 1px 1px #fff;
+color: #fff;
+text-shadow: 1px 1px #2D3E50;
 }
 input[type="submit"]:hover {
 color: #fff;

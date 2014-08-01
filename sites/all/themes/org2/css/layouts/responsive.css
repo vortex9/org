@@ -69,10 +69,10 @@ line-height:1em;
 /* Containers for grid items and flow items. */
 #header {
 position:fixed;
-background:#D5E7FF;
+background:#7DC9A9;
 width: 100%;
 z-index: 300;
-border-bottom: 1px solid #fff;
+/*border-bottom: 1px solid #fff;*/
 }
 
 #header,
