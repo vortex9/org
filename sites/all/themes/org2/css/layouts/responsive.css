@@ -24,7 +24,7 @@ max-width: 1200px;
 margin: auto;
 }
 #footer {
-background: #87C0FF;
+background: #7DA6C9;
 overflow:hidden;
 }
 #footer, #footer a {
@@ -69,7 +69,7 @@ line-height:1em;
 /* Containers for grid items and flow items. */
 #header {
 position:fixed;
-background:#7DC9A9;
+background:#7DA6C9;
 width: 100%;
 z-index: 300;
 /*border-bottom: 1px solid #fff;*/
