@@ -205,3 +205,10 @@ transform: rotateX(90deg) translateY(-22px);
 /*.csstransforms3d */.cl-effect-2 a:focus span::before {
 background: #28a2ee;	
 }
+
+#block-switchtheme-switch-form {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+}
