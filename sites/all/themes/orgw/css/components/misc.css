@@ -94,7 +94,6 @@
 
 /* Wrapper for website name and slogan. */
 .header__name-and-slogan {
-  text-shadow: 0px 0px 6px #014AA7;;
 }
 
 /* The name of the website. */
@@ -117,14 +116,14 @@
 /* The slogan (or tagline) of a website. */
 .header__site-slogan {
   margin: 0;
-  color:#fff;
+  color:#000;
 }
 
 /* The secondary menu (login, etc.) */
 .header__secondary-menu {
 width: 100%;
 font-size: 1.5em;
-text-shadow: 0px 0px 1px #000;
+
 }
 
 /* Wrapper for any blocks placed in the header region. */

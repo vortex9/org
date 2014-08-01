@@ -166,7 +166,10 @@ body {
 a:link, a:visited  {
 color:#000;
 }
-#header a:link ,#header a:visited {color:#fff;}
+#header a:link ,#header a:visited {
+color:#000;
+text-decoration:none;
+}
 #header a:hover,#header a:focus {
 color:#00B5EE;
 text-decoration: none;
